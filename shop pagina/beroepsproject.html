@@ -3,29 +3,115 @@
     <head>
         <title>project</title>
         <link rel="stylesheet" href="beroepsproject.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         
-        <h1>project</h1>
-        <div class="navbar">
-            <p id="naam">Datafox</p>
+        <nav class="navbar">
+
+        <ul class="partone">
+            <li><a href="index.html">shop</a></li>
+            <li><a href="../informatiepagina/informatiepagina.html">informatie</a></li>
+            <li><a href="reparatiepagina.html">reparatie</a></li>
+
             <div class="search">
-            <input type="text" placeholder="zoek hier">
-        <div class="inlogicon">
-        <input type="image" name="submit" src="inlogr.png" alt="inlog" id="iconinlog">
+                <input type="search" id="zoekbalk" name="search" placeholder="zoek">
+                <input type="image" name="submit" id="zoek" src="search.png" alt="zoek">
+               </div>
+        </ul>
+
+        <div class="driehoek">
+            <h1 class="midden"><a href="index.html">DATAFOX</a></h1>
+          </div>
+
+          <ul class="parttwo">
+            <li><img src="cart.png" alt="winkelmand" id="winkelmand"></li>
+            <li><a href="login.html">login/sign up</a></li>
+          </ul>
+            </nav>>
+
+
+        <div class="midpart">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
+                    <div class="slide">
+                        <figure class="slide-figure">
+                            <img class="slide-img" src="picca.jpg" />
+                        </figure><!-- .slide-figure -->
+                    </div><!-- .slide -->
+                    <input type="radio" name="slider" class="trigger" id="two" />
+                    <div class="slide">
+                        <figure class="slide-figure">
+                            <img class="slide-img" src="pc-items-homepage.jpg" id="foto2" />
+                        </figure><!-- .slide-figure -->
+                    </div><!-- .slide -->
+                </div><!-- .slider -->
+                <ul class="slider-nav">
+                    <li class="slider-nav__item"><label class="slider-nav__label" for="one"></label></li>
+                    <li class="slider-nav__item"><label class="slider-nav__label" for="two"></label></li>
+                </ul><!-- .slider-nav -->
+            </div><!-- .slider-wrapper -->
+            
+            
+
+        <div class="sale">
+            <p class="uitverkoop">OP=OP Uitverkoop begint 30-2-2021 tot 03-3-2021!</p>
+            <img src="uitverkoop.jpg" name="uitverkooppic" alt="opisop" id="uitverkooppic">
+            <p class="uitverkoop1">Hoge kortingen op alle GPU's tot en met 40% en op randapperatuur tot 80% korting!! *alleen geldig bij aankopen van meer dan €150</p>
+          </div>
+
         </div>
         
-
-        <div class="dropdownmenu">
-        <button class="dropdown">dropdown</button>
-        <div class="dropdown-content">
-            <a href="#shoppagina">shoppagina</a>
-            <a href="#reperatie">reperatiepagina</a>
-            <a href="#informatie">informatiepagina</a>
+ 
+        <div class="bottom">
+            <div class="bottomhead">
+            <h1 class="bottoma">Mijn gegevens</h1>
+            <ul class="gegevens">
+                <li><a href="#">Inloggen</a></li>
+                <li><a href="#">Registreren</a></li>
+                <li><a href="#">Naar mobiele website</a></li>
+                <li><a href="#">privacy</a></li>
+            </ul>
             </div>
-        </div>
-        </div>
-        </div>
 
+            <div class="bottomhead">
+            <h1 class="bottoma">Services</h1>
+            <ul class="gegevens">
+                <li><a href="#">Retouren</a></li>
+                <li><a href="#">Reparatiestatus</a></li>
+                <li><a href="#">Servicepunt</a></li>
+                <li><a href="#">Spaarprogramma</a></li>
+                <li><a href="#">Betaalmethoden</a></li>
+            </ul>
+            </div>
+
+            <div class="bottomhead">
+            <h1 class="bottoma">Contact</h1>
+            <ul class="gegevens" id="contact">
+              <li>contact@myfox.com</li>
+              <li>+31 2054432991</li>
+              <li>Johan Cruijff Boulevard 240</li>
+              <li>1101 DJ Amsterdam</li>
+            </ul>
+            </div>
+
+            <div class="bottomhead">
+                <div class="betaal1">
+                <h2 class="betaal">Betaalmethodes</h2>
+                <img src="ideal-logo.jpg" id="ideal" name="ideallogo" alt="idealpay">
+                <img src="paypal.png" id="paypal" name="paypallogo" alt="paypall">
+                <img src="btclogo.png" id="btc" name="bitcoin" alt="bitcoinpay">
+            </div>
+            </div>
+
+            <div class="nieuwsbox">
+                <p>schrijf je hier in om elke week onze nieuwsbrief in je mail te ontvangen!</p>
+                <form class="newsl">
+                <input type="text" id="mail" name="email" placeholder="Email">
+                <input type="submit" id="verstuur" value="verstuur">
+              </form>
+              </div>
+            </div>
     </body>
 </html>
