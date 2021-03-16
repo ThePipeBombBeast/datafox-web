@@ -1,31 +1,36 @@
+/*------ Navbar------ */
 .navbar {
-        background-color: darkblue;
+        background-color: rgb(255, 139, 14);
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        height: 75px;
+        width: 100%;
+        top: 0px;
+
 }
 
-.dropdown {
-    background-color: #4CAF50;
-    color: white;
+/* .dropdown {
+    background-color: rgb(255, 139, 14);
+    color: rgb(0, 0, 0);
     padding: 16px;
     font-size: 16px;
     border: none;
 }
 
 .dropdownmenu {
-        position: relative;
-        display: inline-block;
+    
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    right: 0;
+    
 }
 
 .dropdown-content a {
@@ -37,19 +42,330 @@
 
 .dropdownmenu:hover .dropdown-content {
       display: block;
+      background-color: rgb(255, 139, 14);
+      color: rgba(0,0,0,0.2);
+
 }
 
 #iconinlog {
+    margin-right: 0%;
     height: 40px;
-    width: 40px;
+    position: relative;
+
+} */
+
+/* .partone {
+    text-decoration: none;
+    flex-direction: row;
+    display: inline-block;
+} */
+
+.partone a {
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    background-color: black;
+    margin: 1px;;
+    padding: 5px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.partone a:hover {
+    letter-spacing: 0.06em;
+}
+
+.parttwo a {
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    float: right;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.parttwo img {
+    border-radius: 70%;
+    height: 30px;
+    display: inline;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 10px;
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    color: rgb(255, 255, 255);
 }
 
 .search {
-    width: 25%;
+    margin-left: auto;
+    height: 25px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-right: 30px;
+    margin-top: 10px;
 }
 
+body {
+    background-color: black;
+    margin: 0;
+}
 
+#zoek {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-left: -30px;
+    margin-top: 3px;
+}
+
+#zoekbalk {
+    border-radius: 1%;
+    height: 25px;
+    width: 200px;
+    box-shadow: 2px 1px  rgb(0, 0, 0);
+}
+   
+.midden {
+    display: grid;
+    position: absolute;
+    align-items: center;
+    float:none;
+    color: white;
+    left: 12.5px;
+}
+
+.midden a {
+    text-decoration: none;
+    color: white;
+}
+
+.driehoek {
+    display: grid;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-right: -140px;
+    float: none;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 80px solid black;
+    z-index: 1;
+    align-content: center;
+    left: 22.5%;
+}
+
+/* ------midden------ */
+
+.slider-wrapper img {
+    max-width: 100%;
+  }
+
+  #foto2 {
+      width: 490px;
+  }
+
+  .trigger {
+    display: none;
+  }
+
+  .slider-wrapper {
+      width: 40%;
+      margin-top: 10px;
+      margin-left: 90px;
+  }
   
+  .slider, .slider-wrapper {
+    position: relative;
+    height: 320px;
+  }
+  
+  .slide {
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+  }
+  
+  .slide-img {
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .slide-figure {
+    height: 100%;
+    position: relative;
+    margin: 0;
+  }
+  
+  .trigger:checked + .slide {
+    z-index: 3;
+    opacity: 1;
+  }
+  
+  .slider-nav {
+    width: 100%;
+    text-align: center;
+    margin-left: -3rem;
+  }
+  
+  .slider-nav__item {
+    display: inline-block;
+  }
+  
+  .slider-nav__label {
+    font-size: 13px;
+    background-color: #333;
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    width: 2em;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: background-color .25s, color .25s ease-in-out;
+  }
+  
+  .slider-nav__label:hover,
+  .slider-nav__label:active,
+  .slider-nav__label:focus {
+    background-color: gray;
+    color: black;
+  }
+
+.sale {
+    align-items: center;
+    color: white;
+    width: calc(50% - 155px);
+    margin-right: 5px;
+    margin-top: 70px;
+    margin-left: auto;
+}
+
+.midpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+#uitverkooppic {
+    width: 100%;
+}
+
+/* ------onderkant------ */
+
+.bottom {
+    background-color: rgb(255, 145, 0);
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+}
+
+.bottoma {
+    color: white;
+    text-align: left;
+}
+
+.gegevens  {
+    color: white;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.gegevens a {
+    color: white;
+}
+
+#contact {
+    color: black;
+    list-style: none;
+    text-align: left;
+}
+
+.bottomhead {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+
+#ideal{
+    width: 100px;
+    position: absolute;
+    bottom: 5px;
+    left: 55px;
+}
+
+#btc{
+    width: 25px;
+    position: absolute;
+    bottom: 80px;
+    left: 125px;
+}
+
+#paypal{
+    width: 95px;
+    position: absolute;
+    bottom: -55px;
+    left: 55px;
+}
+
+.betaal{
+    position: absolute;
+    font-size: 14px;
+    color:white;
+    bottom: 100px;
+    left: 55px;
+}
+
+.betaal1 {
+    position: absolute;
+    font-size: 14px;
+    color:white;
+    bottom: 40px;
+    left: 670px;
+}
+
+.nieuwsbox{
+   position: relative;
+   float: right;
+   margin-right: 50px;
+   margin-top: 100px;
+}
+
+#mail{
+    width: 300px;
+}
+
+#verstuur{
+    width: 80px;
+    outline: none;
+    background-color: #fff8ed;
+}
