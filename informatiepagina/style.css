@@ -15,7 +15,7 @@ nav {
     background-color: rgb(255, 139, 14);
     padding: 2px;
     margin: 0px;
-    
+    font-family: 'heebo';
     grid-template-columns: 470px auto 1fr;
 }
 #search{
@@ -49,7 +49,14 @@ nav ul {
     white-space: nowrap;
     overflow: hidden;
     z-index:0;
-    
+    padding: 5px;
+    letter-spacing: 0.05em;
+    width: 100px;
+    text-align: center;
+    border-radius: 20%;
+}
+.rightside a:hover {
+    letter-spacing: 0.06em;
 }
 .middle {
     display: grid;
@@ -58,6 +65,10 @@ nav ul {
     left:45%;
     float:none;
     color: white;
+}
+.middle a {
+    color: white;
+    text-decoration: none;
 }
 .triangle{
     display: grid;
@@ -93,6 +104,7 @@ nav ul {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     width: 130px;
+    border-radius: 20%;
 }
 .leftside a:hover{
     letter-spacing: 0.06em;
@@ -114,17 +126,36 @@ nav li {
     display: inline;
     margin-right: 20px;
   }
-h1, h2 {
+h2 {
     position: relative;
     padding-bottom: 20px;
     margin: 0;
+    color:rgb(255, 139, 14);
+    font-size: 40px;
+    text-decoration: underline white;
+}
+h3, h4, h5 {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline rgb(255, 139, 14);
+}
+h6, h7, h8 {
+    font-size: 20px;
     color: white;
 }
 .contactgegevens {
     justify-content: space-evenly;
     flex-direction: column-reverse;
 }
+.nummer a {
+    color: white;
+    text-decoration: none;
+}
 .betaalmethoden {
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+.verzenden {
     justify-content: space-evenly;
     flex-direction: column-reverse;
 }
@@ -140,5 +171,27 @@ h1, h2 {
     margin-right: 10px;
     border-radius: 5px;
 }
-
-
+.verzenden img {
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+mark.bezorging {
+    color: white;
+    background: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+mark.standaard {
+    color: white;
+    background: none;
+}
+mark.express {
+    color: white;
+    background: none;
+}
+mark.afhaal {
+    color: white;
+    background: none;
+}

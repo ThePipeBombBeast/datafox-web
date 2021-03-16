@@ -16,7 +16,7 @@ nav {
     background-color: rgb(255, 139, 14);
     padding: 2px;
     margin: 0px;
-    font-family: 'heebo';
+    font-family: 'heebo';v
     grid-template-columns: 470px auto 1fr;
 }
 #search{
