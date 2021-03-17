@@ -59,18 +59,7 @@ nav ul {
 .rightside a:hover {
     letter-spacing: 0.06em;
 }
-.middle {
-    display: grid;
-    position: absolute;
-    right:60%;
-    left:40%;
-    float:none;
-    color: white;
-}
-.middle a {
-    color: white;
-    text-decoration: none;
-}
+
 .triangle{
     display: grid;
     padding-left: 70px;
@@ -78,17 +67,23 @@ nav ul {
     position: absolute;
     padding-left: 70px;
     padding-right: 100px;
-    right: 55%;
-    left: 45%;
+    left: 40%;
     float: none;
     width: 0px;
     height: 0px;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-bottom: 80px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 60px solid rgb(255, 139, 14);
     z-index:-1;
     align-content: center;
     
+}
+.triangle a img {
+   z-index: 1;
+   position: absolute;
+   top:0px;
+   border-radius: 8px;
+
 }
 
 .leftside a {
@@ -458,6 +453,7 @@ content{
 .footer {
     font-family: 'Heebo', sans-serif;
     margin-top: 20px;
+    padding-left: 40px;
     display: grid;
     width: 500px;
     height: 280px;
@@ -521,6 +517,6 @@ content{
     position: absolute;
     font-size: 14px;
     color:white;
-    bottom: 165px;
-    left: 55px;
+    bottom: 170px;
+    left: 56px;
 }
