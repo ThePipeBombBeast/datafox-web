@@ -1,0 +1,197 @@
+body {
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    margin:0px;
+    color: rgb(255, 139, 14);
+}
+nav {
+    z-index: 0;
+    position: relative;
+    display: grid;
+    top: 0px;
+    left:0px;
+    right:0px;
+    height: 75px;
+    background-color: rgb(255, 139, 14);
+    padding: 2px;
+    margin: 0px;
+    font-family: 'heebo';
+    grid-template-columns: 470px auto 1fr;
+}
+#search{
+    border-radius: 1%;
+    height: 25px;
+    width: 200px;
+    box-shadow: 2px 1px  rgb(0, 0, 0);
+    position: absolute;
+    left: 5px;
+    top:50px;
+}
+#zsearch{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 53px;
+    left:183px;
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 10px;
+  }
+.rightside a {
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    background-color: black;
+    padding:0px;
+    margin: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index:0;
+    padding: 5px;
+    letter-spacing: 0.05em;
+    width: 100px;
+    text-align: center;
+    border-radius: 20%;
+}
+.rightside a:hover {
+    letter-spacing: 0.06em;
+}
+.middle {
+    display: grid;
+    position: absolute;
+    right:55%;
+    left:45%;
+    float:none;
+    color: white;
+}
+.middle a {
+    color: white;
+    text-decoration: none;
+}
+.triangle{
+    display: grid;
+    padding-left: 70px;
+    padding-right: 100px;
+    position: absolute;
+    padding-left: 70px;
+    padding-right: 100px;
+    right:55%;
+    left:45%;
+    float:none;
+    width: 0px;
+    height: 0px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 80px solid black;
+    z-index:-1;
+    align-content: center;
+}
+.leftside a {
+    display: inline;
+    float: right;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    right: 5px;
+    top:4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0;
+    margin:1px;
+    padding:5px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width: 130px;
+    border-radius: 20%;
+}
+.leftside a:hover{
+    letter-spacing: 0.06em;
+}
+.leftside img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: inline;
+    float: right;
+    position: absolute;
+    right:10px;
+    top: 40px;
+}
+.leftside img:hover{
+    opacity: 0.7;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+h2 {
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0;
+    color:rgb(255, 139, 14);
+    font-size: 40px;
+    text-decoration: underline white;
+}
+h3, h4, h5 {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline rgb(255, 139, 14);
+}
+h6, h7, h8 {
+    font-size: 20px;
+    color: white;
+}
+.contactgegevens {
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+.nummer a {
+    color: white;
+    text-decoration: none;
+}
+.betaalmethoden {
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+.verzenden {
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+.contactgegevens img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+.betaalmethoden img {
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.verzenden img {
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+mark.bezorging {
+    color: white;
+    background: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+mark.standaard {
+    color: white;
+    background: none;
+}
+mark.express {
+    color: white;
+    background: none;
+}
+mark.afhaal {
+    color: white;
+    background: none;
+}
