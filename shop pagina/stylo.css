@@ -16,7 +16,7 @@ nav {
     background-color: rgb(255, 139, 14);
     padding: 2px;
     margin: 0px;
-    font-family: 'heebo';v
+    font-family: 'heebo';
     grid-template-columns: 470px auto 1fr;
 }
 #search{
@@ -369,7 +369,7 @@ content{
     float: inline-start;
 
 }
-#addtoc {
+.addtoc {
     position: absolute;
     left: 125px;
     bottom: 1px;
@@ -471,8 +471,6 @@ content{
         position: absolute;
         list-style: none;
         text-align: left;
-        
-        
 
 }
 .services{
@@ -504,8 +502,8 @@ content{
 #btc{
     width: 5%;
     position: absolute;
-    bottom: 142px;
-    left: 125px;
+    bottom: 145px;
+    left: 132px;
 }
 #paypal{
     width: 20%;
