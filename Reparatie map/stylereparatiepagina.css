@@ -1,11 +1,10 @@
-.topnav {
+.topnav { 
     display: flex;
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    background-color:rgb(238, 178, 66);
-    border-style: solid;
-    border-color: rgb(212, 128, 2);
+    background-color:rgb(66, 175, 238);
+    border-style: double;
 }
 .topnav a {
     float: left;
@@ -16,63 +15,34 @@
     text-align: center;
 }
 .topnav a:hover {
-color: rgb(238, 178, 66);
+color: red;
 background: whitesmoke;
 }
 .container1 {
     display: flex;
-    flex-wrap: wrap;
+    
     margin-top: 60px;
-    background-color:rgb(238, 178, 66);
-    border-style: solid;
-    border-color: rgb(212, 128, 2);
+    background-color:rgb(66, 175, 238);
 }
-.container1-box1:first-child {
-    align-content: center;
-    margin-left: 15px;
-    width: 79%;
-    font-size: 16px;
+.container1-box1 {
+    display: flex;
+    width: ;
 }
 .container1-box2 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 20%;
-    margin-top: 10px;
+
 }
 .container1-box3 {
-    width: 100%;
-    font-size: 16px;
-    margin-left: 40%;
-}
-.container1-box4 {
-    width: 100%;
-    font-size: 18px;
-    margin-left: 15px;
+    width: 80%;
+    padding: 10px;
+    margin: ;
+    margin-top: 10px;
+    background-color:rgb(66, 175, 238);
 }
 input[type=text] {
-    width: 120%;
-    border-style: double;
-    border: 2px solid black;
+    width: 80%;
+    border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 12px;
     background-color: white;
     padding: 12px 15px 12px ;
   }
-input:hover{
-    color: whitesmoke;
-}
-body{
-    background-color: black;
-}
-a{
-    color: black;
-}
-a:hover {
-    color: whitesmoke;
-}
-h2:hover{
-    color: whitesmoke;
-}
-h1:hover{
-    color: whitesmoke;
-}
