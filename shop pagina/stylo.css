@@ -432,6 +432,8 @@ content{
     background-color: rgb(247, 172, 75);
 }
 .nieuwsbox{
+    position: relative;
+    float: right;
     font-family: 'heebo';
     font-weight: 500;
 }
