@@ -212,6 +212,8 @@ mark.afhaal {
     color: white;
     text-align: left;
     position: relative;
+    text-decoration: none;
+    font-size: 35px;
 }
 
 .gegevens  {
@@ -259,3 +261,8 @@ mark.afhaal {
     font-family: 'heebo';
     background-color: #fff8ed;
 }
+a.pp, a.av {
+    text-decoration: none;
+    color: white;
+}
+
